@@ -1,22 +1,12 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
 
 import json
+import requests
 
 # Load the JSON file that contains the PDF URLs
 with open('E:/wasserstoff AiInternTask/Dataset.json', 'r') as file:
     data = json.load(file)
 
 pdf_urls = list(data.values())  # Extract URLs into a list
-
-
-# In[6]:
-
-
-import requests
 
 def download_pdf(url, save_path):
     try:
@@ -42,16 +32,3 @@ download_folder = "E:/wasserstoff AiInternTask"
 
 # Call the function to download all PDFs
 download_all_pdfs(pdf_urls, download_folder)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

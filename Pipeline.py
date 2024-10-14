@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import os
 import re
 import numpy as np
@@ -21,10 +15,6 @@ from sumy.summarizers.lsa import LsaSummarizer
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-
-
-# In[ ]:
-
 
 # Text Cleaning Function
 def clean_text(text):
@@ -176,10 +166,3 @@ def process_pdfs_from_folder(folder_path):
 #  specify folder path
 folder_path = r"E:/wasserstoff AiInternTask"  
 process_pdfs_from_folder(folder_path)
-
-
-# In[ ]:
-
-
-
-
