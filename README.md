@@ -29,8 +29,8 @@ The project requires the following Python libraries:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Shakirnadim/rishi-pawar-wasserstoff-AiInternTask
-   cd rishi-pawar-wasserstoff-AiInternTask
+   git clone https://github.com/RadhaRamanJha/radha-raman-jha-wasserstoff-AiInternTask
+   cd radha-raman-jha-wasserstoff-AiInternTask
 
    ```
 
